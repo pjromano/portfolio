@@ -1,0 +1,7 @@
+Portfolio : To Do
+-----------------
+  - Check no portfolio thumb correctness in IE
+  - Error message for failed database
+  - Make/Get flash audio player
+  - Make/Get flash video player
+  - Figure out how to integrate uploaded media into players

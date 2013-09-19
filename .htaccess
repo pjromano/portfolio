@@ -1,0 +1,9 @@
+ErrorDocument 404 /notfound.php
+
+Options +SymLinksIfOwnerMatch
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]*)/?([^/]*)?/?$ portfolio.php?portfolio=$1&page=$2 [QSA]
+

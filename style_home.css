@@ -1,0 +1,162 @@
+* {
+	font-family: Arial, sans;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: url('img/bg.png');
+}
+
+img {
+	border: 0;
+}
+
+a {
+	color: #DDD;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FFF;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #AAA;
+	text-decoration: underline;
+}
+
+a:visited { }
+
+div#accent {
+	position: absolute;
+	width: 100%;
+	height: 66px;
+	background: url('img/bg_accent.png');
+	background-repeat: repeat-x;
+}
+
+div#container {
+	min-height: 100%;
+	margin: 0 auto;
+	width: 400px;
+	padding: 0;
+	background: url('img/bg_content_h.png');
+	background-repeat: repeat-y;
+	position: relative;
+	box-shadow: 0 0 20px 5px #000;
+}
+
+div#header {
+	width: 400px;
+	color: #FFF;
+	text-align: center;
+	padding: 0;
+}
+
+h1 {
+	padding: 40px 0 0 0;
+	margin: 0;
+	font-size: 8pt;
+	font-weight: normal;
+	letter-spacing: 1px;
+}
+
+h2 {
+	padding: 0 0 30px 0;
+	margin: 0;
+	font-size: 24pt;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+div#content {
+	width: 400px;
+	padding: 0;
+}
+
+div#content p {
+	color: #AAA;
+	font-size: 10pt;
+	padding: 0 20px;
+	margin: 10px 0;
+}
+
+ul#portfolios {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+ul#portfolios li {
+	text-align: center;
+}
+
+ul#portfolios li a {
+	display: block;
+	width: 100%;
+	height: 70px;
+	color: #BBB;
+	font-size: 12pt;
+	font-weight: bold;
+	text-decoration: none;
+	overflow: hidden;
+	background-image: none;
+}
+
+ul#portfolios li a:hover {
+	background-image: url('img/portfolio_hilight.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	color: #FFF;
+}
+
+div.list_image {
+	float: right;
+	position: relative;
+	top: -2px;
+	margin: 10px 0;
+	padding: 2px;
+	width: 50px;
+	height: 50px;
+	border-radius: 5px;
+	background-color: #FFF;
+}
+
+div.list_image img {
+	width: 50px;
+	height: 50px;
+	border-radius: 3px;
+}
+
+div.list_left {
+	float: left;
+	width: 185px;
+	height: 70px;
+	padding-right: 14px;
+	border-right: 1px solid #555; /*#A9A9FF;*/
+}
+
+div.list_right {
+	float: left;
+	padding-left: 15px;
+	height: 100%;
+	text-align: left;
+	letter-spacing: 1px;
+	line-height: 70px;
+}
+
+div#footer {
+	position: absolute;
+	bottom: 0;
+	width: 300px;
+	height: 35px;
+	color: #999;
+	font-size: 8pt;
+	text-align: center;
+	line-height: 25px;
+	padding: 0 50px;
+}
